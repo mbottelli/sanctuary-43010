@@ -1,0 +1,215 @@
+/* Recordatorio para la paleta mono gris
+#464544
+#646463
+#838281
+#a2a1a0
+#c0c0bf
+*/
+
+/* Fuentes importadas: Unbounded, YsabeauSC */
+/* font-family: 'Unbounded', cursive; */
+/* font-family: 'Ysabeau SC', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&family=Ysabeau+SC:wght@400;700&display=swap');
+
+
+/* Me parecio que para entenderlo lo mas facil posible, use line breaks para marcar separaciones en el html visualmente acá */
+
+/* -----GENERALIDADES----- */
+/* Esta primera sección es para generalidades, para facilitarme la vida */
+
+* {
+    /* Reset, y poniendo una sola fuente para todo */
+    Margin:0;
+    padding:0;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+h2{
+    /* Capaz deba hacer lo mismo con los h3 */
+    font-size: 50px;
+}
+div{
+    /* Ya inlcluir espacio con cada div me ayuda para no tener que especificarlo cada vez */
+    padding: 100px 5vw 100px 5vw;
+}
+
+/* -----HEADER----- */
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+} /* Sigue siendo necesario el z-index? */
+header nav{
+    background-color: #a2a1a0;
+    height: 100px;
+}
+.logo{
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Unbounded', cursive;
+    font-size: 50px;
+    font-weight: 700;
+} /* Revisar si es necesario usar clase */
+/* Abajo el CSS que había usado para imagen, queda para la posteridad */
+/* header nav a img{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 37px;
+    left: 37px;
+}*/
+header nav ul{
+    display: block;
+    position: absolute;
+    top: 37px;
+    right: 1vw;
+    list-style: none;
+} /* Estandarizar medidas*/
+header nav ul li{
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+header nav ul li a{
+    font-family: 'Unbounded', cursive;
+    font-weight: 200;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* -----HERO----- */
+
+.hero{
+    color:whitesmoke;
+    text-align: center;
+    background-color: #464544;
+}
+.hero h2{
+    padding: 5vh 0 5vh 0;
+}
+.hero p{
+    font-size: 30px;
+    padding: 5vh 0 5vh 0;
+}
+
+/* -----DIV1----- */
+/* Eventualmente le voy a poner otra clase que refleje mejor el contenido, una vez tenga contenido */
+
+.div1{
+    background-color: #c0c0bf;
+    text-align: left;
+}
+.div1 section{
+    display: inline-block;
+    width: 60vw;
+    height: 40vh;
+    text-align: center;
+    overflow: hidden;
+} /* Hay un overflow acá, remover cuando tenga el texto que vaya */
+.div1 section hr{
+    width: 40vw;
+    margin: 5vh 10vw 5vh 10vw;
+}
+.div1 section p{
+    font-size: 20px;
+}
+.div1 img{
+    position: absolute;
+    height: 40vh;
+    width: 25vw;
+    right: 5%;
+}
+
+/* -----VALORES----- */
+
+.valores{
+    background-color: #464544;
+    color: whitesmoke;
+}
+.valores h2{
+    text-align: center;
+}
+.valores hr{
+    position: relative;
+    margin: 5vh 10vw 5vh 10vw;
+    width: 75vw;
+}
+.valores h3{
+    font-size: 25px;
+    margin: 5vh 0vw 3vh 0vw;
+}
+.valores p{
+    font-size: 20px;
+}
+
+/* -----NEWSLETTER----- */
+/* Siento que me la compliqué de mas acá, pero dentro de todo quedó bien */
+
+.newsletter{
+    background-color: #c0c0bf;
+    text-align: right;
+}
+.newsletter img{
+    position: absolute;
+    height: 40vh;
+    width: 25vw;
+    left: 5%;
+}
+.newsletter section{
+    display: inline-block;
+    width: 60vw;
+    height: 40vh;
+}
+.newsletter section h2{
+    text-align: center;
+}
+.newsletter hr{
+    width: 40vw;
+    margin: 5vh 10vw 5vh 10vw;
+}
+.newsletter .ntext{
+    text-align: center;
+    padding: 0;
+}
+.newsletter .ntext p{
+    font-size: 20px;
+}
+.newsletter .ntext input{
+    margin: 3vh 5px 3vh 5px;
+}
+.newsletter .ntext button{
+    width: 100px;
+    height: 30px;
+}
+
+/* -----FOOTER----- */
+/* Ojala todo fuera tan simple como el footer */
+
+footer div{
+    background-color: #a2a1a0;
+    height: 100px;
+    padding: 0 0 0 0;
+}
+footer div ul{
+    padding-top: 25px;
+    text-align: center;
+}
+footer div ul li{
+    display: inline;
+}
+footer div ul li img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+form div{
+    padding: 0 0 0 0;
+}
