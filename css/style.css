@@ -21,16 +21,15 @@
     /* Reset, y poniendo una sola fuente para todo */
     Margin:0;
     padding:0;
-    font-family: 'Ysabeau SC', sans-serif;
+    /* font-family: 'Ysabeau SC', sans-serif; */
 }
-h2{
-    /* Capaz deba hacer lo mismo con los h3 */
+/* h2{
     font-size: 50px;
-}
-div{
+} */
+/* div{ */
     /* Ya inlcluir espacio con cada div me ayuda para no tener que especificarlo cada vez */
-    padding: 100px 5vw 100px 5vw;
-}
+    /* padding: 100px 5vw 100px 5vw;
+} */
 
 /* -----HEADER----- */
 
@@ -102,26 +101,27 @@ header nav ul li a{
 .div1{
     background-color: #c0c0bf;
     text-align: left;
+    display: flex;
 }
 .div1 section{
-    display: inline-block;
+    /* display: inline-block;
     width: 60vw;
-    height: 40vh;
+    height: 40vh; */
     text-align: center;
     overflow: hidden;
 } /* Hay un overflow acá, remover cuando tenga el texto que vaya */
-.div1 section hr{
+/* .div1 section hr{
     width: 40vw;
     margin: 5vh 10vw 5vh 10vw;
-}
-.div1 section p{
+} */
+/* .div1 section p{
     font-size: 20px;
-}
+} */
 .div1 img{
-    position: absolute;
-    height: 40vh;
-    width: 25vw;
-    right: 5%;
+    /* position: absolute; */
+    height: 200px;
+    width: 200px;
+    /* right: 5%; */
 }
 
 /* -----VALORES----- */
@@ -138,10 +138,10 @@ header nav ul li a{
     margin: 5vh 10vw 5vh 10vw;
     width: 75vw;
 }
-.valores h3{
+/* .valores h3{
     font-size: 25px;
     margin: 5vh 0vw 3vh 0vw;
-}
+} */
 .valores p{
     font-size: 20px;
 }
