@@ -26,10 +26,9 @@
 /* h2{
     font-size: 50px;
 } */
-/* div{ */
-    /* Ya inlcluir espacio con cada div me ayuda para no tener que especificarlo cada vez */
-    /* padding: 100px 5vw 100px 5vw;
-} */
+div{
+    padding: 100px 5vw 100px 5vw;
+}
 
 /* -----HEADER----- */
 
@@ -104,24 +103,23 @@ header nav ul li a{
     display: flex;
 }
 .div1 section{
-    /* display: inline-block;
-    width: 60vw;
-    height: 40vh; */
     text-align: center;
     overflow: hidden;
 } /* Hay un overflow acá, remover cuando tenga el texto que vaya */
-/* .div1 section hr{
+.div1 section hr{
     width: 40vw;
     margin: 5vh 10vw 5vh 10vw;
-} */
-/* .div1 section p{
+}
+.div1 section p{
     font-size: 20px;
-} */
+}
 .div1 img{
     /* position: absolute; */
-    height: 200px;
-    width: 200px;
     /* right: 5%; */
+    height: 300px;
+    width: 30vw;
+    flex-direction: row;
+    align-self: center;
 }
 
 /* -----VALORES----- */
