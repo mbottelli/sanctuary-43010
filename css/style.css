@@ -18,55 +18,46 @@
 /* Esta primera sección es para generalidades, para facilitarme la vida */
 
 * {
-    /* Reset, y poniendo una sola fuente para todo */
-    Margin:0;
-    padding:0;
-    /* font-family: 'Ysabeau SC', sans-serif; */
+    /* Margin:0;
+    padding:0; */
+    font-family: 'Ysabeau SC', sans-serif;
 }
 /* h2{
     font-size: 50px;
 } */
-div{
-    padding: 100px 5vw 100px 5vw;
-}
+/* div{
+    padding: 50px 5vw 50px 5vw;
+} */
 
 /* -----HEADER----- */
 
-header{
+/* header{
     position: sticky;
     top: 0;
     left: 0;
     z-index: 10;
-} /* Sigue siendo necesario el z-index? */
+}
 header nav{
     background-color: #a2a1a0;
     height: 100px;
 }
 .logo{
     position: absolute;
-    top: 18px;
+    top: 15px;
     left: 25px;
     text-decoration: none;
     color: black;
     font-family: 'Unbounded', cursive;
     font-size: 50px;
     font-weight: 700;
-} /* Revisar si es necesario usar clase */
-/* Abajo el CSS que había usado para imagen, queda para la posteridad */
-/* header nav a img{
-    width: 200px;
-    height: 25px;
-    position: absolute;
-    top: 37px;
-    left: 37px;
-}*/
+}
 header nav ul{
     display: block;
     position: absolute;
     top: 37px;
     right: 1vw;
     list-style: none;
-} /* Estandarizar medidas*/
+}
 header nav ul li{
     display: inline;
     margin: 0 10px 0 10px;
@@ -77,21 +68,19 @@ header nav ul li a{
     font-size: 15px;
     text-decoration: none;
     color: black;
-}
+} */
 
 /* -----HERO----- */
 
-.hero{
-    color:whitesmoke;
+.hero {
+    padding: 100px 10vw 100px 10vw;
     text-align: center;
-    background-color: #464544;
 }
 .hero h2{
-    padding: 5vh 0 5vh 0;
+    margin: 100px 0 0 0;
 }
 .hero p{
-    font-size: 30px;
-    padding: 5vh 0 5vh 0;
+    margin: 0 0 100px 0;
 }
 
 /* -----DIV1----- */
@@ -136,11 +125,18 @@ header nav ul li a{
     margin: 5vh 10vw 5vh 10vw;
     width: 75vw;
 }
-/* .valores h3{
+.valores p{
+    font-size: 20px;
+}
+.valores-div{
+    display: flex;
+    flex-direction: row;
+}
+.valores-div h3{
     font-size: 25px;
     margin: 5vh 0vw 3vh 0vw;
-} */
-.valores p{
+}
+.valores-div p{
     font-size: 20px;
 }
 
