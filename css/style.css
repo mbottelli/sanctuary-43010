@@ -73,40 +73,45 @@ header nav ul li a{
 /* -----HERO----- */
 
 .hero {
-    padding: 100px 10vw 100px 10vw;
+    padding: 30vh 5vw 30vh 5vw;
     text-align: center;
+    background-color: #464544;
+    color: whitesmoke;
 }
 .hero h2{
-    margin: 100px 0 0 0;
+    margin: 100px 0 100px 0;
+    font-size: 45px;
 }
 .hero p{
-    margin: 0 0 100px 0;
+    margin: 100px 0 100px 0;
+    font-size: 25px;
 }
 
 /* -----DIV1----- */
 /* Eventualmente le voy a poner otra clase que refleje mejor el contenido, una vez tenga contenido */
 
 .div1{
-    background-color: #c0c0bf;
-    text-align: left;
     display: flex;
-}
-.div1 section{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100VH;
+    padding: 5vh 5vw 5vh 5vw;
+    /* margin: 25vh 10vw 30vh 10vw; */
+    background-color: #c0c0bf;
     text-align: center;
-    overflow: hidden;
-} /* Hay un overflow acá, remover cuando tenga el texto que vaya */
-.div1 section hr{
+}
+.div1 h2{
+    font-size: 40px;
+}
+/* .div1 div hr{
     width: 40vw;
     margin: 5vh 10vw 5vh 10vw;
-}
-.div1 section p{
-    font-size: 20px;
+} */
+.div1 p{
+    font-size: 25px;
 }
 .div1 img{
-    /* position: absolute; */
-    /* right: 5%; */
     height: 300px;
-    width: 30vw;
     flex-direction: row;
     align-self: center;
 }
