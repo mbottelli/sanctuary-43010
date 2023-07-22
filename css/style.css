@@ -94,7 +94,7 @@ header nav ul li a{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100VH;
+    height: 105VH;
     padding: 5vh 5vw 5vh 5vw;
     /* margin: 25vh 10vw 30vh 10vw; */
     background-color: #c0c0bf;
