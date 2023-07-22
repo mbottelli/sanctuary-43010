@@ -73,7 +73,7 @@ header nav ul li a{
 /* -----HERO----- */
 
 .hero {
-    padding: 30vh 5vw 30vh 5vw;
+    padding: 25vh 5vw 35vh 5vw;
     text-align: center;
     background-color: #464544;
     color: whitesmoke;
@@ -92,28 +92,42 @@ header nav ul li a{
 
 .div1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
-    height: 105VH;
-    padding: 5vh 5vw 5vh 5vw;
+    /* height: 105VH; */
+    padding: 15vh 5vw 15vh 5vw;
     /* margin: 25vh 10vw 30vh 10vw; */
     background-color: #c0c0bf;
     text-align: center;
 }
-.div1 h2{
+.div1 div h2{
     font-size: 40px;
 }
-/* .div1 div hr{
-    width: 40vw;
-    margin: 5vh 10vw 5vh 10vw;
-} */
-.div1 p{
+.div1 div p{
+    width: 45vw;
     font-size: 25px;
 }
 .div1 img{
     height: 300px;
-    flex-direction: row;
     align-self: center;
+}
+
+@media screen and (max-width: 991px) {
+    .div1{
+        flex-direction: column;
+    }
+    .div1 div h2{
+        font-size: 35px;
+        padding: 25px 0 25px 0;
+    }
+    .div1 div p{
+        width: auto;
+        font-size: 25px;
+        padding: 25px 0 25px 0;
+    }
+    .div1 img{
+        height: 250px;
+    }
 }
 
 /* -----VALORES----- */
