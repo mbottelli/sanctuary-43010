@@ -73,9 +73,14 @@ header nav ul li a{
 /* -----HERO----- */
 
 .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/herosmarthome.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     padding: 25vh 5vw 35vh 5vw;
     text-align: center;
-    background-color: #464544;
     color: whitesmoke;
 }
 .hero h2{
@@ -135,27 +140,12 @@ header nav ul li a{
 .valores{
     background-color: #464544;
     color: whitesmoke;
+    padding: 15vh 5vw 15vh 5vw;
 }
 .valores h2{
     text-align: center;
 }
-.valores hr{
-    position: relative;
-    margin: 5vh 10vw 5vh 10vw;
-    width: 75vw;
-}
 .valores p{
-    font-size: 20px;
-}
-.valores-div{
-    display: flex;
-    flex-direction: row;
-}
-.valores-div h3{
-    font-size: 25px;
-    margin: 5vh 0vw 3vh 0vw;
-}
-.valores-div p{
     font-size: 20px;
 }
 
