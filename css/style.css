@@ -116,7 +116,6 @@ header nav ul li a{
     height: 300px;
     align-self: center;
 }
-
 @media screen and (max-width: 991px) {
     .div1{
         flex-direction: column;
@@ -144,9 +143,14 @@ header nav ul li a{
 }
 .valores h2{
     text-align: center;
+    padding: 5vh 0 5vh 0;
+    font-size: 40px;
 }
 .valores p{
     font-size: 20px;
+    padding: 5vh 0 5vh 0;
+    text-align: center;
+    font-size: 25px;
 }
 
 /* -----NEWSLETTER----- */
