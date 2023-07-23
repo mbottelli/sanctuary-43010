@@ -91,6 +91,14 @@ header nav ul li a{
     margin: 100px 0 100px 0;
     font-size: 25px;
 }
+@media screen and (max-width: 1365px) {
+    .hero h2{
+        font-size: 40px;
+    }
+    .hero p {
+        font-size: 20px;
+    }
+}
 
 /* -----DIV1----- */
 /* Eventualmente le voy a poner otra clase que refleje mejor el contenido, una vez tenga contenido */
@@ -113,10 +121,10 @@ header nav ul li a{
     font-size: 25px;
 }
 .div1 img{
-    height: 300px;
+    height: 400px;
     align-self: center;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1365px) {
     .div1{
         flex-direction: column;
     }
@@ -126,11 +134,11 @@ header nav ul li a{
     }
     .div1 div p{
         width: auto;
-        font-size: 25px;
+        font-size: 20px;
         padding: 25px 0 25px 0;
     }
     .div1 img{
-        height: 250px;
+        height: auto;
     }
 }
 
@@ -153,10 +161,84 @@ header nav ul li a{
     font-size: 25px;
 }
 
+@media screen and (max-width: 1365px) {
+    .valores h2{
+        font-size: 35px;
+    }
+    .valores p {
+        font-size: 20px;
+    }
+}
+
 /* -----NEWSLETTER----- */
 /* Siento que me la compliqué de mas acá, pero dentro de todo quedó bien */
 
-.newsletter{
+.newsletter {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px 20px;
+    background-color: #c0c0bf;
+    padding: 15vh 5vw 15vh 5vw;
+}
+.newsletter img {
+    grid-row: 1 / span 5;
+    max-height: 400px;
+}
+.newsletter h2 {
+    grid-column: 2 / span 3;
+    text-align: center;
+    font-size: 40px;
+}
+.newsletter hr{
+    grid-column: 2 / span 3;
+}
+.newsletter p {
+    grid-column: 2 / span 3;
+    text-align: center;
+    font-size: 25px;
+}
+.newsletter input {
+    height: 30px;
+}
+.newsletter button {
+    grid-column: 3;
+    height: 30px;
+}
+@media screen and (max-width: 1365px) {
+    /* Pasa a flex porque ordenarlo vertical en grids resultó ser muy engorroso */
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .newsletter img {
+        align-self: center;
+        width: 100%;
+        max-width: 700px;
+        max-height: 700px;
+    }
+    .newsletter input {
+        margin: 1vh 0 1vh 0;
+        width: 90vw;
+        align-self: center;
+        max-width: 700px
+    };
+    .newsletter button {
+        width: 50vw;
+        align-self: center;
+        max-width: 250px;
+    }
+    .newsletter h2 {
+        font-size: 35px;
+    }
+    .newsletter p {
+        font-size: 20px;
+        width: 90vw;
+    }
+}
+
+/* .newsletter{
     background-color: #c0c0bf;
     text-align: right;
 }
@@ -166,12 +248,12 @@ header nav ul li a{
     width: 25vw;
     left: 5%;
 }
-.newsletter section{
+.newsletter div{
     display: inline-block;
     width: 60vw;
     height: 40vh;
 }
-.newsletter section h2{
+.newsletter div h2{
     text-align: center;
 }
 .newsletter hr{
@@ -191,7 +273,7 @@ header nav ul li a{
 .newsletter .ntext button{
     width: 100px;
     height: 30px;
-}
+} */
 
 /* -----FOOTER----- */
 /* Ojala todo fuera tan simple como el footer */
@@ -202,8 +284,9 @@ footer div{
     padding: 0 0 0 0;
 }
 footer div ul{
-    padding-top: 25px;
-    text-align: center;
+    display: flex;
+    padding: 25px 0 0 0;
+    justify-content: center;
 }
 footer div ul li{
     display: inline;
@@ -211,10 +294,14 @@ footer div ul li{
 footer div ul li img{
     height: 50px;
     width: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px 0 10px;
 }
-
+@media screen and (max-width: 1365px) {
+    footer div ul li img{
+        height: 35px;
+        width: 35px;
+    }
+}
 
 
 form div{
