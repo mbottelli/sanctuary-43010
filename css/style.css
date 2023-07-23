@@ -279,22 +279,61 @@ footer div ul li img{
     justify-content: center;
     padding: 15vh 10vw 10vh 10vw;
 }
-.nosotros h1 {
+.nosotros .nosotrostext {
+    display: inherit;
+    flex-direction: column;
+    min-height: fit-content;
+}
+.nosotros .nosotrostext h1 {
     align-self: center;
     font-size: 60px;
 }
-.nosotros hr {
+.nosotros .nosotrostext hr {
     margin: 5vh 5vw 5vh 5vw;
 }
-.nosotros p {
-    font-size: 25px;
+.nosotros .nosotrostext p {
+    font-size: 20px;
+    text-align: center;
+}
+.nosotros .ubicaciones {
+    display: inherit;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5vh 0 5vh 0;
+}
+.nosotros .ubicaciones a {
+    display: inherit;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+}
+.nosotros .ubicaciones a img {
+    align-self: center;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 0 1vw 0 1vw;
 }
 @media screen and (max-width: 1365px) {
-    .nosotros h1{
+    .nosotros .nosotrostext h1{
         font-size: 35px;
     }
-    .nosotros p {
-        font-size: 20px;
+    .nosotros .nosotrostext p {
+        font-size: 15px;
+    }
+    .nosotros .ubicaciones {
+        flex-direction: column;
+        max-height: auto;
+        justify-content: space-evenly;
+    }
+    .nosotros .ubicaciones a {
+        max-width: 300px;
+        align-self: center;
+        width: 100%;
+    }
+    .nosotros .ubicaciones a img {
+        margin: 1vh 0 1vh 0;
+        max-width: 300px;
+        width: 100%;
     }
 }
 
