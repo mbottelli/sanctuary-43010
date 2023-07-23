@@ -171,7 +171,6 @@ header nav ul li a{
 }
 
 /* -----NEWSLETTER----- */
-/* Siento que me la compliqué de mas acá, pero dentro de todo quedó bien */
 
 .newsletter {
     display: grid;
@@ -238,50 +237,15 @@ header nav ul li a{
     }
 }
 
-/* .newsletter{
-    background-color: #c0c0bf;
-    text-align: right;
-}
-.newsletter img{
-    position: absolute;
-    height: 40vh;
-    width: 25vw;
-    left: 5%;
-}
-.newsletter div{
-    display: inline-block;
-    width: 60vw;
-    height: 40vh;
-}
-.newsletter div h2{
-    text-align: center;
-}
-.newsletter hr{
-    width: 40vw;
-    margin: 5vh 10vw 5vh 10vw;
-}
-.newsletter .ntext{
-    text-align: center;
-    padding: 0;
-}
-.newsletter .ntext p{
-    font-size: 20px;
-}
-.newsletter .ntext input{
-    margin: 3vh 5px 3vh 5px;
-}
-.newsletter .ntext button{
-    width: 100px;
-    height: 30px;
-} */
-
 /* -----FOOTER----- */
 /* Ojala todo fuera tan simple como el footer */
 
 footer div{
     background-color: #a2a1a0;
     height: 100px;
+    width: 100%;
     padding: 0 0 0 0;
+    position: absolute;
 }
 footer div ul{
     display: flex;
@@ -303,6 +267,36 @@ footer div ul li img{
     }
 }
 
+/* ----------NOSOTROS----------- */
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #464544;
+    text-align: left;
+    color: whitesmoke;
+    justify-content: center;
+    padding: 15vh 10vw 10vh 10vw;
+}
+.nosotros h1 {
+    align-self: center;
+    font-size: 60px;
+}
+.nosotros hr {
+    margin: 5vh 5vw 5vh 5vw;
+}
+.nosotros p {
+    font-size: 25px;
+}
+@media screen and (max-width: 1365px) {
+    .nosotros h1{
+        font-size: 35px;
+    }
+    .nosotros p {
+        font-size: 20px;
+    }
+}
 
 form div{
     padding: 0 0 0 0;
