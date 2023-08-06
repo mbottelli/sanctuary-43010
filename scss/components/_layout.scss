@@ -1,0 +1,147 @@
+// ----- INDEX -----
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/herosmarthome.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 25vh 5vw 35vh 5vw;
+    text-align: center;
+    color: whitesmoke;
+    h2 {
+        margin: 100px 0 100px 0;
+        font-size: 45px;
+    }
+    p {
+        margin: 100px 0 100px 0;
+        font-size: 25px;
+    }
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* height: 105VH; */
+    padding: 15vh 5vw 15vh 5vw;
+    /* margin: 25vh 10vw 30vh 10vw; */
+    background-color: #c0c0bf;
+    text-align: center;
+    div {
+        h2 {
+            font-size: 40px;
+        }
+        p {
+            width: 45vw;
+            font-size: 25px;
+        }
+    }
+    img {
+        height: 400px;
+        align-self: center;
+    }
+}
+
+.valores {
+    background-color: #464544;
+    color: whitesmoke;
+    padding: 15vh 5vw 15vh 5vw;
+    h2 {
+        text-align: center;
+        padding: 5vh 0 5vh 0;
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+        padding: 5vh 0 5vh 0;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+.newsletter {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px 20px;
+    background-color: #c0c0bf;
+    padding: 15vh 5vw 15vh 5vw;
+    img {
+        grid-row: 1 / span 5;
+        max-height: 400px;
+    }
+    h2 {
+        grid-column: 2 / span 3;
+        text-align: center;
+        font-size: 40px;
+    }
+    hr {
+        grid-column: 2 / span 3;
+    }
+    p {
+        grid-column: 2 / span 3;
+        text-align: center;
+        font-size: 25px;
+    }
+    input {
+        height: 30px;
+    }
+    button {
+        grid-column: 3;
+        height: 30px;
+    }
+}
+
+// ----- NOSOTROS -----
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #464544;
+    text-align: left;
+    color: whitesmoke;
+    justify-content: center;
+    padding: 15vh 10vw 10vh 10vw;
+    .nosotrostext{
+        display: inherit;
+        flex-direction: column;
+        min-height: fit-content;
+        h1 {
+            align-self: center;
+            font-size: 60px;
+        }
+        hr {
+            margin: 5vh 5vw 5vh 5vw;
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    .ubicaciones {
+        display: inherit;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5vh 0 5vh 0;
+        a{
+            display: inherit;
+            flex-direction: row;
+            justify-content: center;
+            width: auto;
+            img {
+                align-self: center;
+                max-height: 300px;
+                object-fit: cover;
+                margin: 0 1vw 0 1vw;
+            }
+        }
+    }
+}
+
+// ----- PRIVACIDAD -----
+
+.privacidad {
+    padding: 15vh 10vw 10vh 10vw;
+}
