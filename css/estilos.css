@@ -130,8 +130,13 @@
   padding: 15vh 5vw 15vh 5vw;
   min-height: 90VH;
   background-color: #464544;
-  color: whitesmoke;
-  text-align: center; }
+  color: whitesmoke; }
+  #servicios h1 {
+    font-size: 45px;
+    text-align: center; }
+  #servicios hr {
+    padding: 0 25px 25px 25px;
+    margin-top: 25px; }
   #servicios .container {
     margin: 0 auto;
     max-width: 1500px;
