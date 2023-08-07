@@ -161,12 +161,13 @@
 
 #servicios{
     padding: $padding-div;
-    // min-height: 100VH;
+    min-height: 90VH;
     background-color: nth($bg-colors, 1 );
     color: $font-color;
+    text-align: center;
     .container {
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1500px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -176,16 +177,18 @@
                     display: block;
                     color: black;
                     text-decoration: none;
+                    height: 95%;
                     .card {
                         background-color: nth($bg-colors, 5 );
                         border: none;
                         border-radius: 10px;
-                        height: 30vh;
+                        height: 100%;
                         overflow: hidden;
                         transition: transform 0.3s ease;
                         font-size: $p-font-size - 5;
                         text-align: center;
                         margin-bottom: 20px;
+                        padding: 5px;
                         img {
                             width: 100%;
                             height: 200px;
@@ -196,10 +199,8 @@
                         }
                         h5 {
                             margin-bottom: 10px;
+                            font-size: $header-font-size - 15;
                         }
-                        // .card-link:hover{
-                        //     color: #ffcc00;
-                        // }
                     }
                 }
                 .card:hover {
