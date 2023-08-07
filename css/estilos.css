@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&family=Ysabeau+SC:wght@400;700&display=swap");
+* {
+  /* Margin:0;
+    padding:0; */
+  font-family: 'Ysabeau SC', sans-serif; }
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/herosmarthome.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 25vh 5vw 35vh 5vw;
+  text-align: center;
+  color: whitesmoke; }
+  .hero h2 {
+    margin: 100px 0 100px 0;
+    font-size: 45px; }
+  .hero p {
+    margin: 100px 0 100px 0;
+    font-size: 25px; }
+
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* height: 105VH; */
+  padding: 15vh 5vw 15vh 5vw;
+  /* margin: 25vh 10vw 15vh 5vw 15vh 5vw30vh 10vw; */
+  background-color: #c0c0bf;
+  text-align: center; }
+  .div1 div h2 {
+    font-size: 40px; }
+  .div1 div p {
+    width: 45vw;
+    font-size: 25px; }
+  .div1 img {
+    height: 400px;
+    align-self: center; }
+
+.valores {
+  background-color: #464544;
+  color: whitesmoke;
+  padding: 15vh 5vw 15vh 5vw; }
+  .valores h2 {
+    text-align: center;
+    padding: 5vh 0 5vh 0;
+    font-size: 40px; }
+  .valores p {
+    font-size: 20px;
+    padding: 5vh 0 5vh 0;
+    text-align: center;
+    font-size: 25px; }
+
+.newsletter {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px 20px;
+  background-color: #c0c0bf;
+  padding: 15vh 5vw 15vh 5vw; }
+  .newsletter img {
+    grid-row: 1 / span 5;
+    max-height: 400px; }
+  .newsletter h2 {
+    grid-column: 2 / span 3;
+    text-align: center;
+    font-size: 40px; }
+  .newsletter hr {
+    grid-column: 2 / span 3; }
+  .newsletter p {
+    grid-column: 2 / span 3;
+    text-align: center;
+    font-size: 25px; }
+  .newsletter input {
+    height: 30px; }
+  .newsletter button {
+    grid-column: 3;
+    height: 30px; }
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #464544;
+  text-align: left;
+  color: whitesmoke;
+  justify-content: center;
+  padding: 15vh 5vw 15vh 5vw; }
+  .nosotros .nosotrostext {
+    display: inherit;
+    flex-direction: column;
+    min-height: fit-content; }
+    .nosotros .nosotrostext h1 {
+      align-self: center;
+      font-size: 60px; }
+    .nosotros .nosotrostext hr {
+      margin: 5vh 5vw 5vh 5vw; }
+    .nosotros .nosotrostext p {
+      font-size: 20px;
+      text-align: center; }
+  .nosotros .ubicaciones {
+    display: inherit;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5vh 0 5vh 0; }
+    .nosotros .ubicaciones a {
+      display: inherit;
+      flex-direction: row;
+      justify-content: center;
+      width: auto; }
+      .nosotros .ubicaciones a img {
+        align-self: center;
+        max-height: 300px;
+        object-fit: cover;
+        margin: 0 1vw 0 1vw; }
+
+.privacidad {
+  padding: 15vh 5vw 15vh 5vw;
+  background-color: #464544;
+  color: whitesmoke; }
+  .privacidad h1 {
+    font-size: 40px; }
+  .privacidad h2 {
+    font-size: 35px; }
+  .privacidad p {
+    font-size: 20px; }
+
+#servicios {
+  padding: 15vh 5vw 15vh 5vw;
+  min-height: 90VH;
+  background-color: #464544;
+  color: whitesmoke;
+  text-align: center; }
+  #servicios .container {
+    margin: 0 auto;
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #servicios .container .row .col-md-4 .card-link {
+      display: block;
+      color: black;
+      text-decoration: none;
+      height: 95%; }
+      #servicios .container .row .col-md-4 .card-link .card {
+        background-color: #c0c0bf;
+        border: none;
+        border-radius: 10px;
+        height: 100%;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5px; }
+        #servicios .container .row .col-md-4 .card-link .card img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover; }
+        #servicios .container .row .col-md-4 .card-link .card .card-body {
+          padding: 15px; }
+        #servicios .container .row .col-md-4 .card-link .card h5 {
+          margin-bottom: 10px;
+          font-size: 25px; }
+    #servicios .container .row .col-md-4 .card:hover {
+      transform: scale(1.05); }
+
+footer div {
+  background-color: #a2a1a0;
+  height: 10vh;
+  width: 100%;
+  padding: 0 0 0 0;
+  position: absolute; }
+  footer div ul {
+    display: flex;
+    padding: 25px 0 0 0;
+    justify-content: center; }
+    footer div ul li {
+      display: inline; }
+      footer div ul li img {
+        height: 50px;
+        width: 50px;
+        margin: 0 10px 0 10px; }
+
+#consultas {
+  background-color: #c0c0bf;
+  padding: 100px 20px 20px 20px;
+  min-height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #consultas .container {
+    margin: 0;
+    max-width: 1500px; }
+  #consultas h1 {
+    margin-bottom: 20px;
+    font-size: 40px; }
+  #consultas p {
+    margin-bottom: 40px;
+    font-size: 25px; }
+  #consultas form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px; }
+    #consultas form .form-group {
+      margin-bottom: 20px; }
+    #consultas form label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 5px; }
+    #consultas form input[type="text"],
+    #consultas form input[type="email"],
+    #consultas form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+      font-size: 25px; }
+    #consultas form textarea {
+      resize: vertical; }
+    #consultas form button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 25px;
+      cursor: pointer; }
+
+@media screen and (max-width: 1365px) {
+  .hero h2 {
+    font-size: 40px; }
+  .hero p {
+    font-size: 20px; }
+  .div1 {
+    flex-direction: column; }
+    .div1 div h2 {
+      font-size: 35px;
+      padding: 25px 0 25px 0; }
+    .div1 div p {
+      width: auto;
+      font-size: 20px;
+      padding: 25px 0 25px 0; }
+    .div1 img {
+      height: auto; }
+  .valores h2 {
+    font-size: 35px; }
+  .valores p {
+    font-size: 20px; }
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center; }
+    .newsletter img {
+      align-self: center;
+      width: 100%;
+      max-width: 700px;
+      max-height: 700px; }
+    .newsletter input {
+      margin: 1vh 0 1vh 0;
+      width: 90vw;
+      align-self: center;
+      max-width: 700px; }
+    .newsletter button {
+      width: 50vw;
+      align-self: center;
+      max-width: 250px; }
+    .newsletter h2 {
+      font-size: 35px; }
+    .newsletter p {
+      font-size: 20px;
+      width: 90vw; }
+  footer div ul li img {
+    height: 35px;
+    width: 35px; }
+  .nosotros .nosotrostext h1 {
+    font-size: 35px; }
+  .nosotros .nosotrostext p {
+    font-size: 15px; }
+  .nosotros .ubicaciones {
+    flex-direction: column;
+    max-height: auto;
+    justify-content: space-evenly; }
+    .nosotros .ubicaciones a {
+      max-width: 300px;
+      align-self: center;
+      width: 100%; }
+      .nosotros .ubicaciones a img {
+        margin: 1vh 0 1vh 0;
+        max-width: 300px;
+        width: 100%; }
+  .privacidad h1 {
+    font-size: 35px; }
+  .privacidad h2 {
+    font-size: 30px; }
+  .privacidad p {
+    font-size: 20px; }
+  #consultas h1 {
+    font-size: 35px; }
+  #consultas p {
+    font-size: 20px; } }

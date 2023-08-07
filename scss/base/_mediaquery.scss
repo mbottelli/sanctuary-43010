@@ -1,0 +1,134 @@
+// Este breakpoint está porque es aprox. donde rompe la barra de navegación, por lo que me pareció sensible usarlo para el resto de los elementos
+
+@media screen and (max-width: 1365px) {
+    // ----- INDEX -----
+    .hero {
+        h2 {
+            font-size: $header-font-size;
+        }
+        p {
+            font-size: $p-font-size - 5;
+        }
+    }
+    
+    .div1 {
+        flex-direction: column;
+        div {
+            h2 {
+                font-size: $header-font-size - 5;
+                padding: 25px 0 25px 0;
+            }
+            p {
+                width: auto;
+                font-size: $p-font-size - 5;
+                padding: 25px 0 25px 0;
+            }
+        }
+        img {
+            height: auto;
+        }
+    }
+
+    .valores {
+        h2 {
+            font-size: $header-font-size - 5;
+        }
+        p {
+            font-size: $p-font-size - 5;
+        }
+    }
+
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        img {
+            align-self: center;
+            width: 100%;
+            max-width: 700px;
+            max-height: 700px;
+        }
+        input {
+            margin: 1vh 0 1vh 0;
+            width: 90vw;
+            align-self: center;
+            max-width: 700px;
+        }
+        button {
+            width: 50vw;
+            align-self: center;
+            max-width: 250px;
+        }
+        h2 {
+            font-size: $header-font-size - 5;
+        }
+        p {
+            font-size: $p-font-size - 5;
+            width: 90vw;
+        }
+    }
+
+    footer {
+        div {
+            ul {
+                li {
+                    img {
+                        height: 35px;
+                        width: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    //  ----- NOSOTROS -----
+    .nosotros {
+        .nosotrostext {
+            h1 {
+                font-size: $header-font-size - 5;
+            }
+            p {
+                font-size: $p-font-size - 10;
+            }
+        }
+        .ubicaciones {
+            flex-direction: column;
+            max-height: auto;
+            justify-content: space-evenly;
+            a {
+                max-width: 300px;
+                align-self: center;
+                width: 100%;
+                img {
+                    margin: 1vh 0 1vh 0;
+                    max-width: 300px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    // ----- PRIVACIDAD -----
+    .privacidad {
+        h1 {
+            font-size: $header-font-size - 5;
+        }
+        h2 {
+            font-size: $header-font-size - 10;
+        }
+        p {
+            font-size: $p-font-size - 5;
+        }
+    }
+
+    // ----- CONTACTO -----
+    #consultas {
+        h1 {
+            font-size: $header-font-size - 5;
+        }
+        p {
+            font-size: $p-font-size - 5;
+        }
+    }
+}

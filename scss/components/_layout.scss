@@ -1,0 +1,212 @@
+// ----- INDEX -----
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/herosmarthome.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 25vh 5vw 35vh 5vw;
+    text-align: center;
+    color: $font-color;
+    h2 {
+        margin: 100px 0 100px 0;
+        font-size: $header-font-size + 5;
+    }
+    p {
+        margin: 100px 0 100px 0;
+        font-size: $p-font-size;
+    }
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* height: 105VH; */
+    padding: $padding-div;
+    /* margin: 25vh 10vw 15vh 5vw 15vh 5vw30vh 10vw; */
+    background-color: nth($bg-colors, 5 );
+    text-align: center;
+    div {
+        h2 {
+            font-size: $header-font-size;
+        }
+        p {
+            width: 45vw;
+            font-size: $p-font-size;
+        }
+    }
+    img {
+        height: 400px;
+        align-self: center;
+    }
+}
+
+.valores {
+    background-color: nth($bg-colors, 1 );
+    color: $font-color;
+    padding: $padding-div;
+    h2 {
+        text-align: center;
+        padding: 5vh 0 5vh 0;
+        font-size: $header-font-size;
+    }
+    p {
+        font-size: 20px;
+        padding: 5vh 0 5vh 0;
+        text-align: center;
+        font-size: $p-font-size;
+    }
+}
+
+.newsletter {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px 20px;
+    background-color: nth($bg-colors, 5 );
+    padding: $padding-div;
+    img {
+        grid-row: 1 / span 5;
+        max-height: 400px;
+    }
+    h2 {
+        grid-column: 2 / span 3;
+        text-align: center;
+        font-size: $header-font-size;
+    }
+    hr {
+        grid-column: 2 / span 3;
+    }
+    p {
+        grid-column: 2 / span 3;
+        text-align: center;
+        font-size: $p-font-size;
+    }
+    input {
+        height: $p-font-size + 5;
+    }
+    button {
+        grid-column: 3;
+        height: $p-font-size + 5;
+    }
+}
+
+// ----- NOSOTROS -----
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: nth($bg-colors, 1 );
+    text-align: left;
+    color: $font-color;
+    justify-content: center;
+    padding: $padding-div;
+    .nosotrostext{
+        display: inherit;
+        flex-direction: column;
+        min-height: fit-content;
+        h1 {
+            align-self: center;
+            font-size: $header-font-size + 20;
+        }
+        hr {
+            margin: 5vh 5vw 5vh 5vw;
+        }
+        p {
+            font-size: $p-font-size - 5;
+            text-align: center;
+        }
+    }
+    .ubicaciones {
+        display: inherit;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5vh 0 5vh 0;
+        a{
+            display: inherit;
+            flex-direction: row;
+            justify-content: center;
+            width: auto;
+            img {
+                align-self: center;
+                max-height: 300px;
+                object-fit: cover;
+                margin: 0 1vw 0 1vw;
+            }
+        }
+    }
+}
+
+// ----- PRIVACIDAD -----
+
+.privacidad {
+    padding: $padding-div;
+    background-color: nth($bg-colors, 1 );
+    color: $font-color;
+    h1 {
+        font-size: $header-font-size;
+    }
+    h2 {
+        font-size: $header-font-size - 5;
+    }
+    p {
+        font-size: $p-font-size - 5;
+    }
+}
+
+// ----- SERVICIOS -----
+
+#servicios{
+    padding: $padding-div;
+    min-height: 90VH;
+    background-color: nth($bg-colors, 1 );
+    color: $font-color;
+    text-align: center;
+    .container {
+        margin: 0 auto;
+        max-width: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .row {
+            .col-md-4 {
+                .card-link {
+                    display: block;
+                    color: black;
+                    text-decoration: none;
+                    height: 95%;
+                    .card {
+                        background-color: nth($bg-colors, 5 );
+                        border: none;
+                        border-radius: 10px;
+                        height: 100%;
+                        overflow: hidden;
+                        transition: transform 0.3s ease;
+                        font-size: $p-font-size - 5;
+                        text-align: center;
+                        margin-bottom: 20px;
+                        padding: 5px;
+                        img {
+                            width: 100%;
+                            height: 200px;
+                            object-fit: cover;
+                        }
+                        .card-body {
+                            padding: 15px;
+                        }
+                        h5 {
+                            margin-bottom: 10px;
+                            font-size: $header-font-size - 15;
+                        }
+                    }
+                }
+                .card:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}

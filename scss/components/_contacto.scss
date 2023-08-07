@@ -1,0 +1,56 @@
+#consultas {
+    background-color: nth($bg-colors, 5 );
+    padding: 100px 20px 20px 20px;
+    min-height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .container {
+        margin: 0;
+        max-width: 1500px;
+    }
+    h1{
+        margin-bottom: 20px;
+        font-size: $header-font-size;
+    }
+    p {
+        margin-bottom: 40px;
+        font-size: $p-font-size;
+    }
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+    input[type="text"],
+    input[type="email"],
+    textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        font-size: $p-font-size;
+    }
+    textarea {
+        resize: vertical;
+    }
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: $p-font-size;
+        cursor: pointer;
+    }
+    }
+}
