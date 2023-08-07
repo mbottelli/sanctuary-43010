@@ -168,7 +168,7 @@
 
 footer div {
   background-color: #a2a1a0;
-  height: 100px;
+  height: 10vh;
   width: 100%;
   padding: 0 0 0 0;
   position: absolute; }
@@ -182,6 +182,51 @@ footer div {
         height: 50px;
         width: 50px;
         margin: 0 10px 0 10px; }
+
+#consultas {
+  background-color: #c0c0bf;
+  padding: 100px 20px 20px 20px;
+  min-height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #consultas .container {
+    margin: 0;
+    max-width: 1500px; }
+  #consultas h1 {
+    margin-bottom: 20px; }
+  #consultas p {
+    margin-bottom: 40px; }
+  #consultas form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px; }
+    #consultas form .form-group {
+      margin-bottom: 20px; }
+    #consultas form label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 5px; }
+    #consultas form input[type="text"],
+    #consultas form input[type="email"],
+    #consultas form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+      font-size: 25px; }
+    #consultas form textarea {
+      resize: vertical; }
+    #consultas form button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 25px;
+      cursor: pointer; }
 
 @media screen and (max-width: 1365px) {
   .hero h2 {
