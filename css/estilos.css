@@ -120,11 +120,11 @@
   background-color: #464544;
   color: whitesmoke; }
   .privacidad h1 {
-    font-size: 45px; }
-  .privacidad h2 {
     font-size: 40px; }
+  .privacidad h2 {
+    font-size: 35px; }
   .privacidad p {
-    font-size: 25px; }
+    font-size: 20px; }
 
 #servicios {
   padding: 15vh 5vw 15vh 5vw;
@@ -195,9 +195,11 @@ footer div {
     margin: 0;
     max-width: 1500px; }
   #consultas h1 {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-size: 40px; }
   #consultas p {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    font-size: 25px; }
   #consultas form {
     max-width: 600px;
     margin: 0 auto;
@@ -296,4 +298,8 @@ footer div {
   .privacidad h2 {
     font-size: 30px; }
   .privacidad p {
+    font-size: 20px; }
+  #consultas h1 {
+    font-size: 35px; }
+  #consultas p {
     font-size: 20px; } }

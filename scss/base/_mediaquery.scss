@@ -120,22 +120,13 @@
         }
     }
 
-    // ----- SERVICIOS -----
-    // #servicios {
-    //     .container {
-    //         .row {
-    //             .col-md-4 {
-    //                 .card {
-    //                     width: calc(50% - 20px);
-    //                     &:nth-child(2n) {
-    //                         margin-right: 0;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-
     // ----- CONTACTO -----
-
+    #consultas {
+        h1 {
+            font-size: $header-font-size - 5;
+        }
+        p {
+            font-size: $p-font-size - 5;
+        }
+    }
 }

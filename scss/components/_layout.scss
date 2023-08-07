@@ -147,13 +147,13 @@
     background-color: nth($bg-colors, 1 );
     color: $font-color;
     h1 {
-        font-size: $header-font-size + 5;
-    }
-    h2 {
         font-size: $header-font-size;
     }
+    h2 {
+        font-size: $header-font-size - 5;
+    }
     p {
-        font-size: $p-font-size;
+        font-size: $p-font-size - 5;
     }
 }
 

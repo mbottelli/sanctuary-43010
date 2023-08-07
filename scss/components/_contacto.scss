@@ -12,9 +12,11 @@
     }
     h1{
         margin-bottom: 20px;
+        font-size: $header-font-size;
     }
     p {
         margin-bottom: 40px;
+        font-size: $p-font-size;
     }
     form {
         max-width: 600px;
