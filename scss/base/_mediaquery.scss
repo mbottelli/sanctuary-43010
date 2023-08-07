@@ -2,10 +2,10 @@
     // ----- INDEX -----
     .hero {
         h2 {
-            font-size: 40px;
+            font-size: $header-font-size;
         }
         p {
-            font-size: 20px;
+            font-size: $p-font-size - 5;
         }
     }
     
@@ -13,12 +13,12 @@
         flex-direction: column;
         div {
             h2 {
-                font-size: 35px;
+                font-size: $header-font-size - 5;
                 padding: 25px 0 25px 0;
             }
             p {
                 width: auto;
-                font-size: 20px;
+                font-size: $p-font-size - 5;
                 padding: 25px 0 25px 0;
             }
         }
@@ -29,10 +29,10 @@
 
     .valores {
         h2 {
-            font-size: 35px;
+            font-size: $header-font-size - 5;
         }
         p {
-            font-size: 20px;
+            font-size: $p-font-size - 5;
         }
     }
 
@@ -59,10 +59,10 @@
             max-width: 250px;
         }
         h2 {
-            font-size: 35px;
+            font-size: $header-font-size - 5;
         }
         p {
-            font-size: 20px;
+            font-size: $p-font-size - 5;
             width: 90vw;
         }
     }
@@ -84,10 +84,10 @@
     .nosotros {
         .nosotrostext {
             h1 {
-                font-size: 35px;
+                font-size: $header-font-size - 5;
             }
             p {
-                font-size: 15px;
+                font-size: $p-font-size - 10;
             }
         }
         .ubicaciones {
@@ -107,4 +107,32 @@
         }
     }
 
+    // ----- PRIVACIDAD -----
+    .privacidad {
+        h1 {
+            font-size: $header-font-size - 5;
+        }
+        h2 {
+            font-size: $header-font-size - 10;
+        }
+        p {
+            font-size: $p-font-size - 5;
+        }
+    }
+
+    // ----- SERVICIOS -----
+    // #servicios {
+    //     .container {
+    //         .row {
+    //             .col-md-4 {
+    //                 .card {
+    //                     width: calc(50% - 20pc);
+    //                     &:nth-child(2n) {
+    //                         margin-right: 0;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
