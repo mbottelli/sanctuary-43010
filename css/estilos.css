@@ -178,7 +178,7 @@ footer {
     background-color: #a2a1a0;
     height: 100px;
     width: 100%;
-    padding: 0 0 0 0;
+    padding: 0;
     position: absolute;
     flex-direction: column;
     justify-content: center;
@@ -295,6 +295,18 @@ footer {
     font-size: 35px; }
   .nosotros .nosotrostext p {
     font-size: 15px; }
+  .privacidad h1 {
+    font-size: 35px; }
+  .privacidad h2 {
+    font-size: 30px; }
+  .privacidad p {
+    font-size: 20px; }
+  #consultas h1 {
+    font-size: 35px; }
+  #consultas p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 1024px) {
   .nosotros .ubicaciones {
     flex-direction: column;
     max-height: auto;
@@ -306,14 +318,4 @@ footer {
       .nosotros .ubicaciones a img {
         margin: 1vh 0 1vh 0;
         max-width: 300px;
-        width: 100%; }
-  .privacidad h1 {
-    font-size: 35px; }
-  .privacidad h2 {
-    font-size: 30px; }
-  .privacidad p {
-    font-size: 20px; }
-  #consultas h1 {
-    font-size: 35px; }
-  #consultas p {
-    font-size: 20px; } }
+        width: 100%; } }

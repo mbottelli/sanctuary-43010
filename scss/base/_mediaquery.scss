@@ -94,21 +94,6 @@
                 font-size: $p-font-size - 10;
             }
         }
-        .ubicaciones {
-            flex-direction: column;
-            max-height: auto;
-            justify-content: space-evenly;
-            a {
-                max-width: 300px;
-                align-self: center;
-                width: 100%;
-                img {
-                    margin: 1vh 0 1vh 0;
-                    max-width: 300px;
-                    width: 100%;
-                }
-            }
-        }
     }
 
     // ----- PRIVACIDAD -----
@@ -131,6 +116,26 @@
         }
         p {
             font-size: $p-font-size - 5;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nosotros{
+        .ubicaciones {
+            flex-direction: column;
+            max-height: auto;
+            justify-content: space-evenly;
+            a {
+                max-width: 300px;
+                align-self: center;
+                width: 100%;
+                img {
+                    margin: 1vh 0 1vh 0;
+                    max-width: 300px;
+                    width: 100%;
+                }
+            }
         }
     }
 }
