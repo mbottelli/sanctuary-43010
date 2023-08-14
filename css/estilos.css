@@ -171,22 +171,31 @@
     #servicios .container .row .col-md-4 .card:hover {
       transform: scale(1.05); }
 
-footer div {
-  background-color: #a2a1a0;
-  height: 10vh;
-  width: 100%;
-  padding: 0 0 0 0;
-  position: absolute; }
-  footer div ul {
+footer {
+  height: 100px; }
+  footer div {
     display: flex;
-    padding: 25px 0 0 0;
-    justify-content: center; }
-    footer div ul li {
-      display: inline; }
-      footer div ul li img {
-        height: 50px;
-        width: 50px;
-        margin: 0 10px 0 10px; }
+    background-color: #a2a1a0;
+    height: 100px;
+    width: 100%;
+    padding: 0 0 0 0;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer div ul {
+      display: inherit;
+      padding: 0;
+      margin: 0; }
+      footer div ul li {
+        display: inherit; }
+        footer div ul li a {
+          display: inherit; }
+          footer div ul li a img {
+            display: inherit;
+            height: 50px;
+            width: 50px;
+            margin: 0 10px 0 10px; }
 
 #consultas {
   background-color: #c0c0bf;
@@ -279,7 +288,7 @@ footer div {
     .newsletter p {
       font-size: 20px;
       width: 90vw; }
-  footer div ul li img {
+  footer div ul li a img {
     height: 35px;
     width: 35px; }
   .nosotros .nosotrostext h1 {
