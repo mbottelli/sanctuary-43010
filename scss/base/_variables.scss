@@ -9,3 +9,11 @@ $bg-colors:
     #838281,
     #a2a1a0,
     #c0c0bf;
+
+@mixin padding-normal {
+    padding: 5vh 0 5vh 0;
+}
+@mixin center-color {
+    text-align: center;
+    font-size: $p-font-size;
+}

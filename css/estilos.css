@@ -13,7 +13,7 @@
   position: relative;
   padding: 25vh 5vw 35vh 5vw;
   text-align: center;
-  color: whitesmoke; }
+  font-size: 25px; }
   .hero h2 {
     margin: 100px 0 100px 0;
     font-size: 45px; }
@@ -128,7 +128,7 @@
 
 #servicios {
   padding: 15vh 5vw 15vh 5vw;
-  min-height: 90VH;
+  min-height: calc(100vh - 100px);
   background-color: #464544;
   color: whitesmoke; }
   #servicios h1 {
