@@ -8,7 +8,8 @@
     background-size: cover;
     position: relative;
     padding: 25vh 5vw 35vh 5vw;
-    @include center-color;
+    text-align: center;
+    color: $font-color;
     h2 {
         margin: 100px 0 100px 0;
         font-size: $header-font-size + 5;
@@ -55,7 +56,7 @@
     p {
         font-size: 20px;
         @include padding-normal;
-        @include center-color;
+        @include center-font;
     }
 }
 
